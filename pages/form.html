@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style.css" />
+    <title>Jornalzinho</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1>Jornalzinho do Bairro</h1>
+        <ul>
+          <li><a href="index.html">Notícias</a></li>
+          <li><a href="form.html">Envie sua notícia</a></li>
+          <li><a href="bio.html">Bio</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <form action="/pages/index.html">
+        <label for="title">Título:</label>
+        <input type="text" id="title">
+        <label for="content">Conteúdo:</label>
+        <textarea name="content" id="content" rows="5"></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </main>
+
+    <script src="../script.js"></script>
+  </body>
+</html>
