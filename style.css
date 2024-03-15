@@ -1,0 +1,135 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: var(--color-3);
+  text-decoration: none;
+  list-style: none;
+}
+
+:root {
+  --color-1: #090909;
+  --color-2: #20202065;
+  --color-3: #D0D0D0;
+}
+
+body {
+  background-color: var(--color-1);
+  height: max-content;
+}
+
+header {
+  background-color: var(--color-2);
+  padding: 1rem;
+  margin-bottom: 5rem;
+}
+
+nav {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+#main-news {
+  width: 100%;
+  height: 40vh;
+  padding: 3rem;
+  background-image: url(/assets/pexels-anete-lusina-5721097.jpg);
+  background-color: var(--color-2);
+  background-size: cover ;
+  background-attachment: fixed;
+  background-position: right;
+  display: flex;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+
+#main-news div {
+  max-width: 50%;
+  background-color: #202020a1;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 1rem;
+}
+
+#main-news span {
+  padding: 0.2rem;
+  border-radius: 4px;
+  background-color: red;
+  font-weight: bold;
+}
+
+#others {
+  width: 100%;
+  display: flex;
+  gap: 4rem;
+  align-items: start;
+  justify-content: space-between;
+}
+
+#others aside {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  border-right: 1px solid #202020a1;
+}
+
+.left-news {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.left-news a {
+  text-decoration: underline;
+  color: red;
+}
+
+#others > main {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 8rem;
+}
+
+.right-news {
+  background-image: url(https://images.pexels.com/photos/690598/pexels-photo-690598.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  height: 20rem;
+  display: flex;
+  align-items: end;
+}
+
+.right-news h2 {
+  background-color: #202020a1;
+  width: 100%;
+  padding: 3rem;
+}
+
+footer {
+  background-color: var(--color-2);
+  padding: 5rem;
+  margin-top: 5rem;
+}
