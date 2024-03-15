@@ -120,16 +120,67 @@ main {
 }
 
 .right-news {
-  background-image: url(https://images.pexels.com/photos/690598/pexels-photo-690598.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
-  height: 20rem;
+  background-color: var(--color-2);
+  height: 30rem;
   display: flex;
+  flex-direction: column;
   align-items: end;
 }
 
 .right-news h2 {
-  background-color: #202020a1;
   width: 100%;
+  height: 30%;
   padding: 3rem;
+}
+
+.comments {
+  width: 100%;
+  height: 50%;
+}
+.comments h3 {
+  padding: 2rem 3rem;
+}
+
+#comments-list {
+  height: max-content;
+  padding: 2rem 3rem;
+}
+
+.text {
+  display: flex;
+  gap: 0.5rem;
+  width: 100%;
+  height: 15%;
+}
+
+.comments textarea {
+  width: 90%;
+  height: 100%;
+  resize: none;
+  padding: 0.5rem 1rem;
+  outline: none;
+  color: var(--color-2);
+  border: none;
+}
+
+.comments button {
+  width: 10%;
+  background-color: var(--color-3);
+  border: none;
+  color: var(--color-1);
+  cursor: pointer;
+}
+
+.comments button:hover {
+  background-color: #d0d0d094;
+  transition: 0.4s;
+}
+
+.comment {
+  border: 1px solid var(--color-3);
+  padding: 0.5rem 3rem;
+  border-radius: 8px 8px 0px 8px;
+  margin-bottom: 2rem;
 }
 
 footer {

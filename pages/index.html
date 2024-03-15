@@ -12,6 +12,7 @@
         <h1>Jornalzinho do Bairro</h1>
         <ul>
           <li><a href="#">Notícias</a></li>
+          <li><a href="#">Envie sua notícia</a></li>
           <li><a href="#">Bio</a></li>
         </ul>
       </nav>
@@ -111,18 +112,14 @@
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum
               doloribus neque veritatis a atque?
             </h2>
-          </article>
-          <article class="right-news">
-            <h2>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum
-              doloribus neque veritatis a atque?
-            </h2>
-          </article>
-          <article class="right-news">
-            <h2>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum
-              doloribus neque veritatis a atque?
-            </h2>
+            <div class="comments">
+              <h3>Comentários:</h3>
+              <div id="comments-list"></div>
+              <div class="text">
+                <textarea name="comment-input" id="comment-input"></textarea>
+                <button id="submit">Enviar</button>
+              </div>
+            </div>
           </article>
         </main>
       </section>
@@ -136,5 +133,7 @@
         </ul>
       </nav>
     </footer>
+
+    <script src="../script.js"></script>
   </body>
 </html>
