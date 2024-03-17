@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../style.css" />
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
     <title>Jornalzinho</title>
   </head>
   <body>
@@ -108,7 +109,7 @@
         </aside>
         <main>
           <article class="right-news">
-            <h2>Eventos Bizarros no Bairro:</h2>
+            <h2>Eventos Bizarros no Bairro</h2>
             <table>
               <thead>
                 <tr>
@@ -162,16 +163,12 @@
             </table>
           </article>
           <article class="right-news">
-            <h2>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum
-              doloribus neque veritatis a atque?
-            </h2>
             <div class="comments">
-              <h3>Comentários:</h3>
+              <h2>Comentários</h2>
               <div id="comments-list"></div>
               <div class="text">
-                <textarea name="comment-input" id="comment-input"></textarea>
-                <button id="submit">Enviar</button>
+                <input name="comment-input" id="comment-input"></input>
+                <button id="submit"><i class="ph ph-paper-plane-tilt"></i></button>
               </div>
             </div>
           </article>
@@ -180,10 +177,11 @@
     </main>
     <footer>
       <nav>
-        <h1>Jornalzinho do Bairro</h1>
+        <span>Checkpoint Front-end</span>
         <ul>
-          <li><a href="#">Notícias</a></li>
-          <li><a href="#">Bio</a></li>
+          <li><a href="index.html">Notícias</a></li>
+          <li><a href="form.html">Envie sua notícia</a></li>
+          <li><a href="bio.html">Bio</a></li>
         </ul>
       </nav>
     </footer>
