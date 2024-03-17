@@ -54,7 +54,7 @@ main {
   width: 100%;
   height: max-content;
   padding: 3rem;
-  background-image: url(/assets/pexels-anete-lusina-5721097.jpg);
+  background-image: url(https://picsum.photos/3200/2200);
   background-color: var(--color-2);
   background-attachment: fixed;
   background-size: cover ;
