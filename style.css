@@ -75,9 +75,8 @@ main {
 }
 
 #main-news span {
-  padding: 0.2rem;
-  border-radius: 4px;
-  background-color: red;
+  padding: 0.2rem 0.5rem;
+  background-color: rgb(255, 0, 0);
   font-weight: bold;
 }
 
