@@ -1,0 +1,20 @@
+Contexto: 
+Um jornal humorístico sobre os acontecimentos em um bairro fictício onde coisas estranhas e engraçadas acontecem 
+
+Setores:
+- Notícias locais [x]
+- Entrevistas com moradores excêntricos
+- Classificados bizarros
+- Previsão do tempo improvável
+
+Formulários:
+Submissão de histórias e eventos pelo leitor, contato para anúncios [x]
+
+Design:
+Estilo de jornal antigo com um toque de surrealismo, uso de caricaturas, layout multicolumnar
+
+Conteúdo Dinâmico:
+Seção de comentários e fórum para os moradores [x]
+
+Tabelas:
+Agenda de eventos locais estranhos
