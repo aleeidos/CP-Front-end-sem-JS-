@@ -54,9 +54,8 @@ main {
   width: 100%;
   height: max-content;
   padding: 3rem;
-  background-image: url(https://picsum.photos/3200/2200);
+  background-image: url(https://media.discordapp.net/attachments/1217124075843883230/1219297396455116832/F_j67toXEAAu27r.png?ex=660aca30&is=65f85530&hm=e14078387dd9d567e6e6f6adb9c457e8d46b51e257e5300e031bc095ab8cfc65&=&format=webp&quality=lossless);
   background-color: var(--color-2);
-  background-attachment: fixed;
   background-size: cover ;
   background-position: right;
   display: flex;
@@ -101,6 +100,7 @@ main {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
+  padding: 0rem 2rem 0rem 0rem;
 }
 
 .left-news a {
@@ -198,8 +198,11 @@ th {
 }
 
 .comment {
+  display: flex;
   border: 1px solid var(--color-3);
   width: max-content;
+  max-width: 80%;
+  overflow: hidden;
   padding: 0.5rem 1rem;
   border-radius: 16px 16px 0px 16px;
   margin-bottom: 2rem;
