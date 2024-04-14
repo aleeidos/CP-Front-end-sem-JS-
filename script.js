@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function () {
+/* document.addEventListener("DOMContentLoaded", function () {
   const submitButton = document.getElementById("submit");
   const commentContent = document.getElementById("comment-input");
   const commentList = document.getElementById("comments-list");
@@ -20,3 +20,4 @@ document.addEventListener("DOMContentLoaded", function () {
     commentList.appendChild(commentElement);
   }
 });
+ */
